@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="portfolio.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+<title>Anurag</title>
+</head>
+
+<body>
+   <nav class="navbar navbar-expand-lg navbar-dark  bro">
+    <img src="as-logo1.png" style="margin:5px;" alt="" width="" height="40"/>
+  <a class="navbar-brand" href="#">ANASPIS</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link fa fa-home" href="portfolio.html"> Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item ">
+      <a class="nav-link fa fa-info-circle" href="index.html"> about <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link fa fa-suitcase" href="project.html"> projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fa fa-user-o" href="contact.html"> contact me</a>
+      </li>
+     </li>
+        <a class="nav-link fa fa-globe" href="home.html"> website</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      <p class="copyright-text" style="padding:10px">Copyright &copy; 2023 All Rights Reserved by 
+           <a href="#">ANURAG SRIVASTAV</a>
+      
+    </span>
+  </div>
+</nav>
+
+<div class="container-fluid splash" id="splash">
+  <div class="container">
+    <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1680109916/Untitled_design_1_tsp1iy.png" alt="Portrait of Mr. Roboto" class="profile-image"> 
+    <h1>HELLO!</h1> 
+    <h1 class="intro-text"><span class="lead" id="typed">I am  </span></h1>
+    
+  </div>
+</div>
+
+
+<style>
+  html{
+    scroll-behavior: smooth;
+  }
+  * {
+    box-sizing: border-box;
+  }
+.bro{
+    border-radius: 50px;
+    margin: 5px;
+    color: black;
+    backdrop-filter: blur( 11.5px );
+  -webkit-backdrop-filter: blur( 11.5px );    
+}
+
+
+
+  @media only screen and (max-width:767px)
+  { ul.navbar-nav { float:none; } }
+  .container-fluid {
+    padding: 0 1em;
+  }
+ 
+  .container {
+    margin: 0 auto;
+    max-width: 996px;
+  }
+  .splash {
+    background:url("https://wallpaperaccess.com/full/206895.jpg") ;
+    background-size: cover;
+    
+  }
+  
+  .splash .container {
+    padding-top: 15vh; /* No JS fallback*/
+    padding-bottom: 30vh; /* No JS fallback*/
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    display: block;
+    max-height:250px;
+    max-width: 250px;
+    margin: 0 auto 1em;
+    width: 100%;
+    opacity: 0.7;
+  }
+  
+  .splash h1 {
+    font-size: 40px;
+    margin-bottom: .15em;
+    text-align: center;
+  }
+  
+  .splash .lead, .splash .continue {
+    display: inline-block;
+    text-align: center;
+  }
+  h1.intro-text
+  {
+    margin:0;
+    color:#fff;
+  }
+  .splash .lead {
+    font-size: 30px;
+    margin-bottom: 1em;
+    font-family: Rockwell;
+  }
+  .navbar-inverse
+  {
+    border:none!important;
+  }
+  @keyframes blink
+    {
+              0% { opacity:1; }
+              50% { opacity:0; }
+              100% { opacity:1; }
+    }
+          @-webkit-keyframes blink
+          {
+              0% { opacity:1; }
+              50% { opacity:0; }
+              100% { opacity:1; }
+          }
+          @-moz-keyframes blink
+          {
+              0% { opacity:1; }
+              50% { opacity:0; }
+              100% { opacity:1; }
+          }
+          @-ms-keyframes blink
+          {
+              0% { opacity:1; }
+              50% { opacity:0; }
+              100% { opacity:1; }
+          }
+          @-o-keyframes blink
+          {
+              0% { opacity:1; }
+              50% { opacity:0; }
+              100% { opacity:1; }
+          }
+  /* code for animated blinking cursor */
+  #typed-cursor
+  {
+        opacity: 1;
+        font-size: 40px;
+        color: #fff;
+        font-weight: 50;
+        -webkit-animation: blink 1s infinite;
+        -moz-animation: blink 1s infinite;
+        -ms-animation: blink 1s infinite;
+        -o-animation: blink 1s infinite;
+        animation: blink 1s infinite;
+  }
+  
+  .splash .continue {
+    font-size: 3em;
+    display:block;
+  }
+  
+  .splash .continue a {
+    border: 2px solid #fff;
+    border-radius: 100%;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    width: 40px;
+    height:40px;
+    font-size:30px;
+  }
+  .splash .continue a:hover {
+    background-color: rgba(255, 255, 255, .25);
+  }
+  #about,#portfolio,#contact
+  {
+    padding-top:4em!important;
+  }
+  section h2 {
+      margin: 0;
+      font-size: 3em;
+  }
+  section.success {
+      color: #fff;
+      background: rgb(13, 79, 136);
+    padding: 2%;
+  }
+  
+  section.success a
+  {
+    color:black;
+    transition: 0.4s ease;
+  }
+  section.success a:hover {
+      outline: 0;
+      color: #fff;
+    border: 2px solid #fff;
+  }
+  .contact-button
+  {
+    padding-bottom:2%;
+  }
+  hr.star-light,hr.star-portfolio {
+      margin: 25px auto 30px;
+      padding: 0;
+      max-width: 250px;
+      border: 0;
+      border-top: solid 3px;
+      text-align: center;
+  }
+  
+  hr.star-light:after,hr.star-portfolio:after {
+      content: "\f005";
+      display: inline-block;
+      position: relative;
+      top: -.8em;
+      padding: 0 .25em;
+      font-family: FontAwesome;
+      font-size: 2em;
+  }
+  
+  hr.star-light {
+      border-color: #fff;
+  }
+  hr.star-portfolio {
+      border-color: black;
+  }
+  hr.star-portfolio:after {
+      color: black;
+      background-color: #eee;
+  }
+  hr.star-light:after {
+      color: #fff;
+      background-color: rgb(13, 79, 136);
+  }
+  p.content-text { font-size: 25px; }
+</style>
+
+<script>
+  $( window ).resize( function() {
+    centerSplash();
+  });
+  
+  !function($){
+  
+      "use strict";
+  
+      var Typed = function(el, options){
+  
+          // chosen element to manipulate text
+          this.el = $(el);
+          // options
+          this.options = $.extend({}, $.fn.typed.defaults, options);
+  
+          // text content of element
+          this.text = this.el.text();
+  
+          // typing speed
+          this.typeSpeed = this.options.typeSpeed;
+  
+          // amount of time to wait before backspacing
+          this.backDelay = this.options.backDelay;
+  
+          // input strings of text
+          this.strings = this.options.strings;
+  
+          // character number position of current string
+          this.strPos = 0;
+  
+          // current array position
+          this.arrayPos = 0;
+  
+          // current string based on current values[] array position
+          this.string = this.strings[this.arrayPos];
+  
+          // number to stop backspacing on.
+          // default 0, can change depending on how many chars
+          // you want to remove at the time
+          this.stopNum = 0;
+  
+          // Looping logic
+          this.loop = this.options.loop;
+          this.loopCount = this.options.loopCount;
+          this.curLoop = 1;
+          if (this.loop === false){
+              // number in which to stop going through array
+              // set to strings[] array (length - 1) to stop deleting after last string is typed
+              this.stopArray = this.strings.length-1;
+          }
+          else{
+              this.stopArray = this.strings.length;
+          }
+  
+          // All systems go!
+          this.init();
+          this.build();
+      }
+  
+          Typed.prototype =  {
+  
+              constructor: Typed
+  
+              , init: function(){
+                  // begin the loop w/ first current string (global self.string)
+                  // current string will be passed as an argument each time after this
+                  this.typewrite(this.string, this.strPos);
+              }
+  
+              , build: function(){
+                  this.el.after("<span id=\"typed-cursor\">|</span>");
+              }
+  
+              // pass current string state to each function
+              , typewrite: function(curString, curStrPos){
+  
+                  // varying values for setTimeout during typing
+                  // can't be global since number changes each time loop is executed
+                  var humanize = Math.round(Math.random() * (100 - 30)) + this.typeSpeed;
+                  var self = this;
+  
+                  // ------------- optional ------------- //
+                  // backpaces a certain string faster
+                  // ------------------------------------ //
+                  // if (self.arrayPos == 1){
+                  //  self.backDelay = 50;
+                  // }
+                  // else{ self.backDelay = 500; }
+  
+                  // containg entire typing function in a timeout
+                  setTimeout(function() {
+  
+                      // make sure array position is less than array length
+                      if (self.arrayPos < self.strings.length){
+  
+                          // start typing each new char into existing string
+                          // curString is function arg
+                          self.el.text(self.text + curString.substr(0, curStrPos));
+  
+                          // check if current character number is the string's length
+                          // and if the current array position is less than the stopping point
+                          // if so, backspace after backDelay setting
+                          if (curStrPos > curString.length && self.arrayPos < self.stopArray){
+                              clearTimeout(clear);
+                              var clear = setTimeout(function(){
+                                  self.backspace(curString, curStrPos);
+                              }, self.backDelay);
+                          }
+  
+                          // else, keep typing
+                          else{
+                              // add characters one by one
+                              curStrPos++;
+                              // loop the function
+                              self.typewrite(curString, curStrPos);
+                              // if the array position is at the stopping position
+                              // finish code, on to next task
+                              if (self.loop === false){
+                                  if (self.arrayPos === self.stopArray && curStrPos === curString.length){
+                                      // animation that occurs on the last typed string
+                                      // fires callback function
+                                      var clear = self.options.callback();
+                                      clearTimeout(clear);
+                                  }
+                              }
+                          }
+                      }
+                      // if the array position is greater than array length
+                      // and looping is active, reset array pos and start over.
+                      else if (self.loop === true && self.loopCount === false){
+                          self.arrayPos = 0;
+                          self.init();
+                      }
+                          else if(self.loopCount !== false && self.curLoop < self.loopCount){
+                              self.arrayPos = 0;
+                              self.curLoop = self.curLoop+1;
+                              self.init();
+                          }
+  
+                  // humanized value for typing
+                  }, humanize);
+  
+              }
+  
+              , backspace: function(curString, curStrPos){
+  
+                  // varying values for setTimeout during typing
+                  // can't be global since number changes each time loop is executed
+                  var humanize = Math.round(Math.random() * (100 - 30)) + this.typeSpeed;
+                  var self = this;
+  
+                  setTimeout(function() {
+  
+                      // ----- this part is optional ----- //
+                      // check string array position
+                      // on the first string, only delete one word
+                      // the stopNum actually represents the amount of chars to
+                      // keep in the current string. In my case it's 14.
+                       if (self.arrayPos == 1, 2, 3, 4){
+                          self.stopNum = 0;
+                       }
+                      //every other time, delete the whole typed string
+                       //else{
+                          //self.stopNum = 0;
+                       //}
+  
+                      // ----- continue important stuff ----- //
+                      // replace text with current text + typed characters
+                      self.el.text(self.text + curString.substr(0, curStrPos));
+  
+                      // if the number (id of character in current string) is
+                      // less than the stop number, keep going
+                      if (curStrPos > self.stopNum){
+                          // subtract characters one by one
+                          curStrPos--;
+                          // loop the function
+                          self.backspace(curString, curStrPos);
+                      }
+                      // if the stop number has been reached, increase
+                      // array position to next string
+                      else if (curStrPos <= self.stopNum){
+                          clearTimeout(clear);
+                          var clear = self.arrayPos = self.arrayPos+1;
+                          // must pass new array position in this instance
+                          // instead of using global arrayPos
+                          self.typewrite(self.strings[self.arrayPos], curStrPos);
+                      }
+  
+                  // humanized value for typing
+                  }, humanize);
+  
+              }
+  
+          }
+  
+      $.fn.typed = function (option) {
+          return this.each(function () {
+            var $this = $(this)
+              , data = $this.data('typed')
+              , options = typeof option == 'object' && option
+            if (!data) $this.data('typed', (data = new Typed(this, options)))
+            if (typeof option == 'string') data[option]()
+          });
+      }
+  
+      $.fn.typed.defaults = {
+          strings: ["Hello, hola, hi! ", "Welcome to my website ", "Go on, scroll down", ":)"],
+          // typing and backspacing speed
+          typeSpeed: 50, // speed decreases as number increased
+          // time before backspacing
+          backDelay: 100,
+          // loop
+          loop: true,
+          // false = infinite
+          loopCount: false,
+          // ending callback function
+          callback: function(){ null }
+      }
+  
+  
+  }(window.jQuery);
+  
+  
+  $(function(){
+  
+          $("#typed").typed({
+              strings: ["Anurag Srivastav","a web devoloper","AI scientist", "a VR developer"], //Strings to display when typing
+              typeSpeed: 40,
+              backDelay: 600,
+              loop: true,
+              // defaults to false for infinite loop
+              loopCount: false,
+              callback: function(){ foo(); }
+          });
+  
+          function foo(){ console.log("Callback"); }
+  
+      });
+</script>
+
+
+    
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
